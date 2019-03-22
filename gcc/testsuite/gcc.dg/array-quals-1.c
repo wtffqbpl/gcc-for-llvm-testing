@@ -6,6 +6,8 @@
 /* { dg-options "-Wno-discarded-array-qualifiers" } */
 /* The MMIX port always switches to the .data section at the end of a file.  */
 /* { dg-final { scan-assembler-not "\\.data(?!\\.rel\\.ro)" { xfail powerpc*-*-aix* mmix-*-* x86_64-*-mingw* } } } */
+/* { dg-additional-options "-Wno-ignored-optimization-argument" } */
+/* { dg-additional-options "-Wno-incompatible-pointer-types-discards-qualifiers" } */
 static const int a[2] = { 1, 2 };
 const int a1[2] = { 1, 2 };
 typedef const int ci;
