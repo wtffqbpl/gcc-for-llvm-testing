@@ -1,6 +1,7 @@
 /* Test qualifier discard of typeof for atomic types. */
 /* { dg-do compile } */
 /* { dg-options "-std=c11" } */
+/* { dg-additional-options "-Wno-incompatible-pointer-types" } */
 /* { dg-require-effective-target gcc_frontend } */
 
 /* Check that the qualifiers are discarded for atomic types. */
