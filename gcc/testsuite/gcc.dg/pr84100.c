@@ -1,7 +1,7 @@
 /* PR c/84100 */
 /* { dg-do compile } */
 /* { dg-options "-O2" } */
-/* { dg-additional-options "-Wno-unknown-attributes" } */
+/* { dg-require-effective-target attr_optimize } */
 
 void bar (void);
 
