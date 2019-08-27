@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-options "-O0 -Wall -fdump-tree-gimple" } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target builtin_bcopy } */
 
 void f0 (void *dst, const void *src, unsigned n)
 {
