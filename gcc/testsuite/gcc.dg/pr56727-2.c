@@ -2,6 +2,7 @@
 /* { dg-require-effective-target noclone } */
 /* { dg-options "-O2 -fPIC" } */
 /* { dg-require-alias "" } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 __attribute__((noinline, noclone))
 void f (short b)
