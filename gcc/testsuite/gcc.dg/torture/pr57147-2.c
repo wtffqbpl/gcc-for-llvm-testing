@@ -3,6 +3,7 @@
 /* { dg-require-effective-target gcc_internals } */
 /* { dg-skip-if "" { *-*-* } { "-fno-fat-lto-objects" } { "" } } */
 /* { dg-require-effective-target indirect_jumps } */
+/* { dg-require-effective-target builtin_setjmp_longjmp } */
 
 struct __jmp_buf_tag {};
 typedef struct __jmp_buf_tag jmp_buf[1];
