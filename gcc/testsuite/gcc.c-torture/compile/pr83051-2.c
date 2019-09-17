@@ -1,4 +1,5 @@
 /* { dg-options "-fno-early-inlining" } */
+/* { dg-require-effective-target gcc_frontend } */
 void
 bar ()
 {
