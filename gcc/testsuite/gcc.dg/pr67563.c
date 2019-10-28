@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fexceptions" } */
 /* { dg-additional-options "-Wno-implicit-function-declaration" } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 static void
 emit_package (int p1)

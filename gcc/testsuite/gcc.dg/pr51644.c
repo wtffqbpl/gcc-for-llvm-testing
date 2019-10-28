@@ -1,6 +1,7 @@
 /* PR middle-end/51644 */
 /* { dg-do compile } */
 /* { dg-options "-Wall -fexceptions" } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 #include <stdarg.h>
 

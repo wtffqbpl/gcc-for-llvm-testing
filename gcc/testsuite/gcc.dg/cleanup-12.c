@@ -4,6 +4,7 @@
 /* { dg-options "-O2 -fexceptions" } */
 /* { dg-skip-if "" { "ia64-*-hpux11.*" } } */
 /* { dg-skip-if "" { ! nonlocal_goto } } */
+/* { dg-skip-if "" { ! fexceptions } } */
 /* Verify unwind info in presence of alloca.  */
 
 #include <unwind.h>

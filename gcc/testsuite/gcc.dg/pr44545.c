@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fnon-call-exceptions -ftrapv -fexceptions" } */
+/* { dg-skip-if "" { ! fexceptions } } */
 void
 DrawChunk(int *tabSize, int x) 
 {
