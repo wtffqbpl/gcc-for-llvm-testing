@@ -4,6 +4,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fexceptions -fnon-call-exceptions" } */
 /* { dg-additional-options "-Wno-pointer-bool-conversion" } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 int a[10];
 

@@ -1,5 +1,6 @@
 /* { dg-options "-fexceptions" } */
 /* { dg-skip-if "requires alloca" { ! alloca } { "-O0" } { "" } } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 void
 af (void *a)

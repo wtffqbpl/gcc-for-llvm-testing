@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O0 -fexceptions" } */
+/* { dg-skip-if "" { ! fexceptions } } */
 
 #include <stdarg.h>
 
