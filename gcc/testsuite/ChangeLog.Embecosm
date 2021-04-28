@@ -1,5 +1,30 @@
 2021-04-29  Mary Bennett  <mary.bennett@embecosm.com>
 
+	* lib/target-supports-dg.exp (dg-require-effective-target-flag): Added
+	a proc template to check whether or not an optimisation flag is
+	supported by the target.
+	* lib/target-supports.exp (is-effective-target-flag): Likewise.
+	* gcc.dg/iec-559-macros-6.c: Requires target with support for
+	optimisation flags.
+	* gcc.dg/independent-cloneids-1.c: Likewise.
+	* gcc.dg/nested-func-12.c: Likewise.
+	* gcc.dg/pr49860.c: Likewise.
+	* gcc.dg/pr51039.c: Likewise.
+	* gcc.dg/pr87929.c: Likewise.
+	* gcc.dg/pr88444.c: Likewise.
+	* gcc.dg/pr92591-2.c: Likewise.
+	* gcc.dg/pr94002.c: Likewise.
+	* gcc.dg/pr94292.c: Likewise.
+	* gcc.dg/pr95580.c: Likewise.
+	* gcc.dg/pr97192.c: Likewise.
+	* gcc.dg/pr97396.c: Likewise.
+	* gcc.dg/single-precision-constant.c: Likewise.
+	* gcc.dg/sms-compare-debug-1.c: Likewise.
+	* gcc.dg/type-convert-var.c: Likewise.
+	* gcc.dg/var-expand2.c: Likewise.
+
+2021-04-29  Mary Bennett  <mary.bennett@embecosm.com>
+
 	* gcc.c-torture/unsorted/dump-noaddr.x: Added check for GCC internals
 	which is required to produce the dump files.
 
