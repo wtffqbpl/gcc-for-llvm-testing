@@ -1,6 +1,6 @@
 /* PR debug/83547 */
 /* { dg-require-effective-target gcc_frontend } */
-/* { dg-options "-fdiagnostics-color=never" } */
+/* { dg-require-effective-target offload_gcn } */
 
 void
 foo (void)

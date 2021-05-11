@@ -1,6 +1,6 @@
 /* { dg-options "-Wdeprecated-declarations" } */
 /* { dg-require-effective-target gcc_frontend } */
-/* { dg-options "-fdiagnostics-color=never" } */
+/* { dg-require-effective-target offload_gcn } */
 
 /* Check that MSG is printed without the escape characters being interpreted.
    Especially the newlines.

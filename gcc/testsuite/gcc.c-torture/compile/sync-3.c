@@ -1,6 +1,7 @@
 /* { dg-message "note: '__sync_fetch_and_nand' changed semantics in GCC 4.4" "" { target *-*-* } 0 } */
-/* { dg-options "-ffat-lto-objects -fdiagnostics-color=never" } */
+/* { dg-options "-ffat-lto-objects" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target offload_gcn } */
 
 /* Validate that each of the __sync builtins compiles.  This won't 
    necessarily link, since the target might not support the builtin,
