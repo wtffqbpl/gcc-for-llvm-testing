@@ -1,4 +1,6 @@
 /* Verify proper errors are generated for invalid code.  */
+/* { dg-require-effective-target offload_gcn } */
+
 int __attribute__ ((interrupt))
 sub0 (void)
 { /* { dg-error "function cannot return a value" } */

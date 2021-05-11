@@ -1,5 +1,6 @@
 /* PR inline-asm/93202 */
 /* { dg-do compile { target fpic } } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-options "-fpic" } */
 
 void
