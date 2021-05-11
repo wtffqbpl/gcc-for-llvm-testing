@@ -1,5 +1,6 @@
 /* PR target/48767 */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-options "-fdiagnostics-color=never" } */
 
 void
 foo (__builtin_va_list ap)
