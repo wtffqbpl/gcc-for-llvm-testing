@@ -1,5 +1,6 @@
 /* { dg-do compile }
    { dg-require-weak "" } */
+/* { dg-require-effective-target offload_gcn } */
 
 /* Verify that the following invalid pragmas are diagnosed.  */
 
