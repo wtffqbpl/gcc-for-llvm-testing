@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdelete-null-pointer-checks" } */
 /* { dg-require-weak "" } */
+/* { dg-require-effective-target offload_gcn } */
 
 /* { dg-skip-if "" keeps_null_pointer_checks } */
 extern int a; /* { dg-error "declared weak after being used" } */

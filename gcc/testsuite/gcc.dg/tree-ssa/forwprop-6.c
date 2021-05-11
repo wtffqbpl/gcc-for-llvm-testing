@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -fdump-tree-ccp1 -W -Wall" } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target gcc_frontend } */
 #if (__SIZEOF_INT__ == __SIZEOF_FLOAT__)
 typedef int intflt;

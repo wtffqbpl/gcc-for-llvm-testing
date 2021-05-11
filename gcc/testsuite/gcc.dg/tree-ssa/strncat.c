@@ -1,5 +1,6 @@
 /* PR tree-optimization/83075 - Invalid strncpy optimization */
 /* { dg-do run } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-options "-O2 -Wstringop-overflow" } */
 
 typedef __SIZE_TYPE__ size_t;

@@ -2,6 +2,7 @@
    { dg-do compile }
    { dg-options "-O2 -Wno-format-overflow -Wrestrict -ftrack-macro-expansion=0" }
 */
+/* { dg-require-effective-target offload_gcn } */
 
 void sink (int);
 

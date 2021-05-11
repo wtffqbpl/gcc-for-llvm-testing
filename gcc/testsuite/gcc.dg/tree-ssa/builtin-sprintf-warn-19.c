@@ -4,6 +4,7 @@
    { dg-options "-O2 -Wall -Wformat-overflow=1 -ftrack-macro-expansion=0" }
    { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 void sink (char*);
 

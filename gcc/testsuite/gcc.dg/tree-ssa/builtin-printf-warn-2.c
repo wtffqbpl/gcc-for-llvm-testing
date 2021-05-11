@@ -5,6 +5,7 @@
    { dg-do compile }
    { dg-options "-O -Wformat -Wformat-overflow=2 -ftrack-macro-expansion=0" }
    { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target offload_gcn } */
 
 
 #define INT_MAX __INT_MAX__

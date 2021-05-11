@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-options "-O2 -fno-ipa-icf" } */
 
 void runtime_error (void) __attribute__ ((noreturn));

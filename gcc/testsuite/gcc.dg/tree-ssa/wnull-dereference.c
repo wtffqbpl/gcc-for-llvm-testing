@@ -1,6 +1,7 @@
 /* { dg-do compile } */ 
 /* PR c/16531 */
 /* { dg-options "-O2 -fdelete-null-pointer-checks -Wnull-dereference" } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-skip-if "" keeps_null_pointer_checks } */
 
 #ifndef __cplusplus

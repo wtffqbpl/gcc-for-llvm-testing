@@ -3,6 +3,7 @@
    follows.
    { dg-do compile }
    { dg-options "-O2 -Wall -Wformat-truncation=2 --param ssa-name-def-chain-limit=4 -fdump-tree-optimized" } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef __SIZE_TYPE__ size_t;
 

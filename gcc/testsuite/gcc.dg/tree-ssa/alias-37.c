@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target alloca } */
 /* { dg-options "-O2 -fdump-tree-dse1-details" } */
+/* { dg-require-effective-target offload_gcn } */
 
 int i;
 int *foo (int bogus, int n)

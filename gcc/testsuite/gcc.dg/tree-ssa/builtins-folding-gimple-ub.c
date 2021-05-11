@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-options "-O1 -fdump-tree-optimized" } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target gcc_frontend } */
 
 char *buffer1;

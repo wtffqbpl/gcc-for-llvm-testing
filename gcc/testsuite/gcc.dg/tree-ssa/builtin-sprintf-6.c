@@ -8,6 +8,7 @@
    { dg-options "-O2 -Wformat -fdump-tree-optimized" }
    { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef __SIZE_TYPE__ size_t;
 

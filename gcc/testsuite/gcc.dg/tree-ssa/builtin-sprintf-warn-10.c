@@ -7,6 +7,7 @@
    { dg-require-effective-target builtin_sprintf }
    { dg-options "-O2 -Wformat -Wformat-overflow -ftrack-macro-expansion=0" } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef __builtin_va_list va_list;
 

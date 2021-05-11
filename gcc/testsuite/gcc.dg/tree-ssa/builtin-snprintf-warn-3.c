@@ -3,6 +3,7 @@
    { dg-options "-O2 -Wformat -Wformat-truncation=2 -ftrack-macro-expansion=0" }
    { dg-require-effective-target ptr32plus } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef __SIZE_TYPE__  size_t;
 typedef __WCHAR_TYPE__ wchar_t;

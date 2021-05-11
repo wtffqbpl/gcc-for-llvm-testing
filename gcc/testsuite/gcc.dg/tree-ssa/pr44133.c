@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-options "-O2 -Wall" } */
 
 struct S { int i, j; };

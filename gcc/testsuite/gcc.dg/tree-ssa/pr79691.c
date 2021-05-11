@@ -5,6 +5,7 @@
    { dg-options "-Og -Wall -fdump-tree-optimized" }
    { dg-require-effective-target builtin_sprintf } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 char d[2];
 

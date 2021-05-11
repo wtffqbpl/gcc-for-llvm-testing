@@ -5,6 +5,7 @@
    { dg-require-effective-target builtin_sprintf }
    { dg-options "-Wformat-overflow -ftrack-macro-expansion=0" } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 #define INT_MAX __INT_MAX__
 #define INT_MIN (-INT_MAX - 1)

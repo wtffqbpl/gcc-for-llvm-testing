@@ -2,6 +2,7 @@
 /* { dg-options "-O2 -fdump-tree-isolate-paths -fdelete-null-pointer-checks -Wnull-dereference" } */
 /* { dg-skip-if "" keeps_null_pointer_checks } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 
 typedef __SIZE_TYPE__ size_t;

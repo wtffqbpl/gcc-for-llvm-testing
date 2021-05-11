@@ -6,6 +6,7 @@
    is ever implemented this test will need to be adjusted.
    { dg-do compile }
    { dg-options "-O2 -Wall -fdump-tree-optimized -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target offload_gcn } */
 
 #include "../range.h"
 

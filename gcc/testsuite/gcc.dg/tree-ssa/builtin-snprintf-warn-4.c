@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-options "-O2 -Wformat-truncation -fdiagnostics-show-caret" } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 extern int snprintf (char *, __SIZE_TYPE__, const char *, ...);
 

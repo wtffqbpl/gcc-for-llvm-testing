@@ -3,6 +3,7 @@
 /* { dg-require-effective-target int32plus } */
 /* { dg-require-effective-target builtin_sprintf } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 /* When debugging, define LINE to the line number of the test case to exercise
    and avoid exercising any of the others.  The buffer and objsize macros

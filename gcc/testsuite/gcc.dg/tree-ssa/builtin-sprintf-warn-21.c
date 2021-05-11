@@ -2,6 +2,7 @@
    truncation
    { dg-do compile }
    { dg-options "-O2 -Wall -ftrack-macro-expansion=0" } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef __SIZE_TYPE__ size_t;
 
