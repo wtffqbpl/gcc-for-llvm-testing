@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-skip-if "" { *-*-* } { "-fno-fat-lto-objects" } { "" } } */
 
 #include "../analyzer-decls.h"

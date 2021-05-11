@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-Wno-implicit-function-declaration" } */
 
 void foo (void)
