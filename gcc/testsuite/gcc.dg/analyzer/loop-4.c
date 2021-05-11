@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Example of nested loops.  */
 
 #include "analyzer-decls.h"

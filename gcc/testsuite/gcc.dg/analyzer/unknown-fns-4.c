@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 #include "analyzer-decls.h"
 
 int get(void);

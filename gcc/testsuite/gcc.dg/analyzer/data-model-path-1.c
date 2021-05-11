@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stddef.h>
 
 static int *__attribute__((noinline))

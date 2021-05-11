@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fno-analyzer-transitivity" } */
 #include "analyzer-decls.h"
 

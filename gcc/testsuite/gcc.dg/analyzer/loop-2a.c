@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fno-analyzer-state-purge" } */
 #include "analyzer-decls.h"
 

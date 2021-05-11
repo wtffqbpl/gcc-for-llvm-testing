@@ -1,5 +1,7 @@
 /* PR tree-optimization/97424.  */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdint.h>
 
 static inline uint32_t

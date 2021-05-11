@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "--param analyzer-max-enodes-per-program-point=2 -Wno-analyzer-too-complex" }  */
 
 #include "analyzer-decls.h"

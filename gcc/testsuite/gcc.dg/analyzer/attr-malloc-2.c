@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 extern void free (void *);
 char *xstrdup (const char *)
   __attribute__((malloc (free), returns_nonnull));

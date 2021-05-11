@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 #include <stdlib.h>
 
 int test_1 (void)

@@ -1,5 +1,7 @@
 /* PR middle-end/90404 */
 
+/* { dg-require-effective-target offload_gcn } */
+
 const int c1 = 20; /* { dg-message "declared here" } */
 int test_1 (void)
 {

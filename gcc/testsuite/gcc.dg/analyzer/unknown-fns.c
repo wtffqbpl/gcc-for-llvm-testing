@@ -1,6 +1,8 @@
 /* Verify that the analyzer correctly purges state when it sees a call to
    an unknown function.  */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 /* Verify fix for false-positive when checking for CVE-2005-1689.  */

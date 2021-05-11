@@ -1,4 +1,5 @@
 /* Regression test for hang with -fanalyzer-verbosity=0.  */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fanalyzer-verbosity=0" } */
 
 #include <stdlib.h>

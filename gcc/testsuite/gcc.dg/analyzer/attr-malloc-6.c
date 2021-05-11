@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Adapted from gcc.dg/Wmismatched-dealloc.c.  */
 
 #define A(...) __attribute__ ((malloc (__VA_ARGS__)))

@@ -1,5 +1,6 @@
 /* { dg-do link } */
 /* { dg-require-effective-target lto } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-flto" } */
 /* { dg-additional-sources double-free-lto-1-b.c } */
 

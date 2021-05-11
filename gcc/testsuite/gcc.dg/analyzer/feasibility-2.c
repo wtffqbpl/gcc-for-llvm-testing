@@ -1,4 +1,5 @@
 /* Verify that -fno-analyzer-feasibility works.  */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fno-analyzer-feasibility" } */
 
 #include "analyzer-decls.h"

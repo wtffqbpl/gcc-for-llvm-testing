@@ -1,6 +1,8 @@
 /* Verify that we don't print "<unknown>" in various diagnostics
    (PR analyzer/99771). */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 void test_1 (void)

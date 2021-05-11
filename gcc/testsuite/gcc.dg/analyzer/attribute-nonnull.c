@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 extern void foo(void *ptrA, void *ptrB, void *ptrC) /* { dg-message "argument 1 of 'foo' must be non-null" } */

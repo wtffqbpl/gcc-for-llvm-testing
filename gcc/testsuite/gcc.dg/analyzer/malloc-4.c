@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-Wno-incompatible-pointer-types" } */
 
 #include <stdlib.h>

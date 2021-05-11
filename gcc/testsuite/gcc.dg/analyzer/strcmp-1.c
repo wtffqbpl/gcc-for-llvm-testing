@@ -1,5 +1,7 @@
 /* Verify that we clarify the sense of paths involving strcmp.  */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include <string.h>
 #include <stdlib.h>
 

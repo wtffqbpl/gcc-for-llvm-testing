@@ -1,4 +1,5 @@
 /* { dg-do compile } */
+/* { dg-require-effective-target offload_gcn } */
 
 void
 p5 (const void *);

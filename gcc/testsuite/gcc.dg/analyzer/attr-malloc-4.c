@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* An example where the deallocator requires non-NULL.  */
 
 struct foo;

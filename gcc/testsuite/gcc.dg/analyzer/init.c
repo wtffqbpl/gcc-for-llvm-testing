@@ -5,6 +5,8 @@
    gimple assign stmts, with just "zero-init everything" CONSTRUCTORs
    and "clobber" CONSTRUCTORs.  */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include "analyzer-decls.h"
 
 struct coord

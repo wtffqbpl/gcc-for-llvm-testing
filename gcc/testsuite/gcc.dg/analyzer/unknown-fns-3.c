@@ -1,5 +1,7 @@
 /* Tests for handling constraints on results of unknown fns.  */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stddef.h>
 #include "analyzer-decls.h"
 

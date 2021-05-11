@@ -1,4 +1,5 @@
 /* { dg-do link } */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target lto } */
 /* { dg-additional-options "-flto" } */
 /* { dg-additional-sources "malloc-ipa-8-lto-a.c malloc-ipa-8-lto-b.c" } */

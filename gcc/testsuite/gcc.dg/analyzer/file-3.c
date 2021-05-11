@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 typedef struct _IO_FILE FILE;
 extern struct _IO_FILE *stderr;
 

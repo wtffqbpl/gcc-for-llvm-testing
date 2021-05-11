@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 void recursive_free (void *ptr)

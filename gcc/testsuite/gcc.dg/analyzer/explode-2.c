@@ -4,6 +4,7 @@
 
    Set the limits high enough that we can fully explore this.  */ 
 
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "--param analyzer-max-enodes-per-program-point=200 --param analyzer-bb-explosion-factor=50" } */
 
 #include <stdlib.h>

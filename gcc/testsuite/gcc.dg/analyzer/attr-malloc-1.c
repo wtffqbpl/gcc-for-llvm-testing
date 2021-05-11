@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 extern void free (void *);
 
 struct foo

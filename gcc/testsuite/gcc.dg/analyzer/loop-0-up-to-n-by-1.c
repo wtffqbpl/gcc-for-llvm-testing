@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include "analyzer-decls.h"
 
 void test(int n)

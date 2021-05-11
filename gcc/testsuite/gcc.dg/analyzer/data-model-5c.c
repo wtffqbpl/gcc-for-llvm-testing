@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* A toy re-implementation of CPython's object model.  */
 
 #include <stddef.h>

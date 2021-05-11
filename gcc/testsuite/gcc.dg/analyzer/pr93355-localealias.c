@@ -5,6 +5,7 @@
 /* { dg-do "compile" } */
 /* { dg-additional-options "-Wno-analyzer-too-complex" } */
 /* TODO: remove the need for this option.  */
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target alloca } */
 
 /* Handle aliases for locale names.

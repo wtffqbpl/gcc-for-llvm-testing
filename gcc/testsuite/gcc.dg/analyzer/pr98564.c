@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 void *calloc (__SIZE_TYPE__, __SIZE_TYPE__);
 
 void test_1 (void)

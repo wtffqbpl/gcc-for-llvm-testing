@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Tests for precision-of-wording within malloc warnings.  */
 
 typedef __SIZE_TYPE__ size_t;

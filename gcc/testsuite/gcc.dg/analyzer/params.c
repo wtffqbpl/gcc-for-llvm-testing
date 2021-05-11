@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include "analyzer-decls.h"
 
 static int __analyzer_called_function(int j)

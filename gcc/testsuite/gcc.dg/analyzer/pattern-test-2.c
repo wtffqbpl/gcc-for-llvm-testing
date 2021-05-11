@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fanalyzer-checker=pattern-test -O2" } */
 // TODO: run this at every optimization level
 

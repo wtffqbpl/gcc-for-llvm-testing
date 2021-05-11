@@ -1,5 +1,7 @@
 /* Verify that we can disable analyzer warnings via pragmas.  */
 
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 void test_1 (void *ptr)

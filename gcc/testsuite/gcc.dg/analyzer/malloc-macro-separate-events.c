@@ -1,5 +1,6 @@
 /* Test path-printing in the face of macros.  */
 
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fdiagnostics-path-format=separate-events" } */
 
 #include "malloc-macro.h"

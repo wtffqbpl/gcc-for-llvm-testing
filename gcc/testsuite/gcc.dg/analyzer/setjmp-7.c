@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target indirect_jumps } */
 
 #include "test-setjmp.h"

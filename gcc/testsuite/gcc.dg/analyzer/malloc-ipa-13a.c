@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-additional-options "-fanalyzer-verbosity=1" } */
 
 #include <stdlib.h>

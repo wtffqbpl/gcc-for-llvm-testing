@@ -1,6 +1,7 @@
 /* Ensure we use the correct location when reporting where the
    signal handler was registered (PR analyzer/95188).  */
 
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target signal } */
 
 #include <stdio.h>

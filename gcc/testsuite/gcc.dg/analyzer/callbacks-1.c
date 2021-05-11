@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Reproducer for PR analyzer/97258: we should report the double-free
    inside a static callback if the callback escapes.  */
 

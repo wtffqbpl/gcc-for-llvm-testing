@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 /* { dg-require-effective-target label_values } */
 
 /* Labels as values.  */

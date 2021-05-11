@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Verify that we emit sane paths for state machine errors.  */
 
 #include <stdlib.h>

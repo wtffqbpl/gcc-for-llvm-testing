@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 typedef void *(*allocator_t) (size_t);

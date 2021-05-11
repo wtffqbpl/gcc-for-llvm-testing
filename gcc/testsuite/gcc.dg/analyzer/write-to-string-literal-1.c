@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 #include <string.h>
 
 /* PR analyzer/95007.  */

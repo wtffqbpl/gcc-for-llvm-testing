@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 struct foo
 {
   int *v;

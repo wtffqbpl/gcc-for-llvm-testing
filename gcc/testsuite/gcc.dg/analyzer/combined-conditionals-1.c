@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Verify that we correctly consolidate conditionals in paths.  */
 
 #include "analyzer-decls.h"

@@ -4,6 +4,7 @@
    removed.  */
 
 /* { dg-do "compile" } */
+/* { dg-require-effective-target offload_gcn } */
 
 /* Minimal replacement of system headers.  */
 

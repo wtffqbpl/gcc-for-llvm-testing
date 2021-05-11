@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 #include <stdlib.h>
 
 void __attribute__((noinline)) callee_1 (int *ptr)

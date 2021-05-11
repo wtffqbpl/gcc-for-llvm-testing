@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 extern void free (void *);
 
 int not_a_fn __attribute__ ((malloc (free))); /* { dg-warning "'malloc' attribute ignored; valid only for functions" } */

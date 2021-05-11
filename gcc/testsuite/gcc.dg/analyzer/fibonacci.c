@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 int fib (int n)
 {
   if (n > 1)

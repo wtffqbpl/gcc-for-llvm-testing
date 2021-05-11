@@ -1,3 +1,5 @@
+/* { dg-require-effective-target offload_gcn } */
+
 /* Integration test to verify that we don't explode in this
    argument-parsing logic.
    Adapted from part of bzip2-1.0.8: bzip2.c: main.  */

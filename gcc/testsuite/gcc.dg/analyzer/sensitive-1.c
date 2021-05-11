@@ -1,3 +1,4 @@
+/* { dg-require-effective-target offload_gcn } */
 #include <stdio.h>
 
 /* Solaris needs this for <unistd.h> to declare getpass.  */

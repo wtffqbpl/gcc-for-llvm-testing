@@ -3,6 +3,7 @@
    Adapted from intl/localealias.c, with all #includes removed.  */
 
 /* { dg-do "compile" } */
+/* { dg-require-effective-target offload_gcn } */
 
 #include "analyzer-decls.h"
 
