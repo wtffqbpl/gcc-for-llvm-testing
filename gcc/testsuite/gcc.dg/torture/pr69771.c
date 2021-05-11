@@ -1,6 +1,7 @@
 /* PR rtl-optimization/69771 */
 /* { dg-do compile } */
 /* { dg-require-effective-target int32plus } */
+/* { dg-require-effective-target offload_gcn } */
 
 unsigned char a = 5, c;
 unsigned short b = 0;

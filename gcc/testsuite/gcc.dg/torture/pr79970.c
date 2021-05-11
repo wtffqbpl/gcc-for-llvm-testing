@@ -2,6 +2,7 @@
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-skip-if "" { *-*-* } { "-flto" } { "" } } */
 /* { dg-additional-options "-mno-sse" { target x86_64-*-* i?86-*-* } } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef int c __attribute__ ((__vector_size__ (16)));
 

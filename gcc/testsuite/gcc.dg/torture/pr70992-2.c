@@ -1,5 +1,6 @@
 /* PR middle-end/70992 */
 /* { dg-do compile } */
+/* { dg-require-effective-target offload_gcn } */
 
 unsigned int *od;
 int

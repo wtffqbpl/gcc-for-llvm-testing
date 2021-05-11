@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 struct singlecomplex { float real, imag ; } ;
 struct doublecomplex { double real, imag ; } ;

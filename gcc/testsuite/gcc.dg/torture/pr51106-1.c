@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-skip-if "RTL error" { "*-*-*" } { "-fno-fat-lto-objects" } { "" } } */
+/* { dg-require-effective-target offload_gcn } */
 
 int
 foo (int x)

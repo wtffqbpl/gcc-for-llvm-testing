@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 void ldt_add_entry(void)
 {

@@ -1,6 +1,7 @@
 /* { dg-do run } */
 /* { dg-require-effective-target indirect_jumps } */
 /* { dg-require-effective-target builtin_setjmp_longjmp } */
+/* { dg-require-effective-target offload_gcn } */
 
 #include <setjmp.h>
 

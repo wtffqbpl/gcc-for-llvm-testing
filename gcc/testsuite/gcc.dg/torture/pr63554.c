@@ -1,5 +1,6 @@
 /* PR c/63554 - ice in "execute_todo, at passes.c:1797" with -O3
    { dg-do compile } */
+/* { dg-require-effective-target offload_gcn } */
 
 char *a;
 void

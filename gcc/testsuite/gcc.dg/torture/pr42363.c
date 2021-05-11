@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-require-effective-target gcc_frontend } */
 /* { dg-options "-g" } */
+/* { dg-require-effective-target offload_gcn } */
 
 void foo (void) __attribute__ ((noreturn));
 

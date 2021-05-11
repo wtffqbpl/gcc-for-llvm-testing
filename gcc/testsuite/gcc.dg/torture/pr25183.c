@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-options "-pedantic" } */
 /* { dg-require-effective-target gcc_frontend } */
+/* { dg-require-effective-target offload_gcn } */
 
 enum err {
   err_IO = 0x8a450000, /* { dg-warning "int" } */

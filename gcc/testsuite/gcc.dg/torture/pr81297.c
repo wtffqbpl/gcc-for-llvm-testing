@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-return-type" } */
+/* { dg-require-effective-target offload_gcn } */
 
 int
 nf (int gy, int x0)

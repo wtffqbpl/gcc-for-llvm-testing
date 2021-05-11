@@ -2,6 +2,7 @@
 /* { dg-do compile } */
 /* { dg-additional-options "-Wno-return-type" } */
 /* { dg-additional-options "-Wno-ignored-attributes" } */
+/* { dg-require-effective-target offload_gcn } */
 
 struct obstack *a;
 struct obstack {

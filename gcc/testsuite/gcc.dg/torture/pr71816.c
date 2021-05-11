@@ -1,5 +1,6 @@
 /* { dg-do compile } */
 /* { dg-prune-output "\\\[-Wbuiltin-declaration-mismatch" } */
+/* { dg-require-effective-target offload_gcn } */
 
 void *ext2fs_resize_mem_p;
 struct ext2_icount_el {

@@ -6,6 +6,7 @@
 /* { dg-skip-if "" { *-*-* }  { "*" } { "-O0" "-O2" } } */
 /* { dg-skip-if "" { *-*-* }  { "-flto" } { "" } } */
 /* { dg-require-effective-target alloca } */
+/* { dg-require-effective-target offload_gcn } */
 
 typedef __SIZE_TYPE__ size_t;
 extern void *memset (void *, int, size_t);

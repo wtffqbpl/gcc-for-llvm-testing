@@ -1,6 +1,7 @@
 /* { dg-do compile } */
 /* { dg-prune-output "conflicting types for built-in" } */
 /* { dg-require-effective-target gcc_internals } */
+/* { dg-require-effective-target offload_gcn } */
 
 void *memmove ();
 
